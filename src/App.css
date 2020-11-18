@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  margin-top: 40px;
+
+}
+h3 {
+  font-weight: bold;
+  opacity: 0.7;
+}
+input {
+  width: 180px;
+  border: none;
+  padding: 7px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 5px rgba(197, 197, 196, 0.8);
+  font-weight: bold;
+}
+input::placeholder {
+  opacity: 0.4;
+}
+.color {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-invert {
+  width: 180px;
+  height: 180px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.color-container {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn {
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: royalblue;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 5px rgba(197, 197, 196, 0.8);
+  transition: transform 0.1s ease-in;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+.error {
+  border: 1px solid red;
+}
+.clipboard {
+  background-color: rgb(2, 119, 119);
+  color: aliceblue;
+  width: 150px;
+  border-radius: 2px;
+}
